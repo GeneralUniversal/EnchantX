@@ -1,0 +1,42 @@
+{
+  "format_version": 3,
+  "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+  "tooth": "github.com/wed150/EnachantX",
+  "version": "0.1.0",
+  "info": {
+    "name": "EnchantX",
+    "description": "A Lse Pluyin which enchanced enchantment function",
+    "tags": [
+      "platform:levilamina",
+      "type:mod"
+    ],
+    "avatar_url": "https://avatars.githubusercontent.com/u/110138748?s=40&v=4"
+  },
+  "variants": [
+    {
+      "platform": "win-x64",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina": >=1.0.0,
+        "github.com/LiteLDev/LegacyScriptEngine">=0.10.0
+      },
+      "assets": [
+        {
+          "type": "zip",
+          "urls": [
+            "https://{{tooth}}/releases/download/v{{version}}/EnchantX-windows-x64.zip"
+          ],
+          "placements": [
+            {
+              "type": "dir",
+              "src": "EnchantX/",
+              "dest": "plugins/EnchantX/"
+            }
+          ]
+        }
+      ],
+      "remove_files": [
+          "plugins/EnchantX"
+      ]
+    }
+  ]
+}
