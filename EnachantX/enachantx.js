@@ -3,7 +3,7 @@ mc.listen("onServerStarted", function() {
     cmd.setCallback(function(cmd, origin, output, results) {
         try {
 
-            let players = origin.player
+            let players = results.player
             if (Array.isArray(players)) {
                 players.map(p => handleEnchantment(p, results, output))
             } else {
@@ -89,7 +89,10 @@ function handleEnchantment(player, results, output) {
     // 查找是否已存在相同ID的附魔
     for (let index = 0; index < enchList.getSize(); index++) {
         let enchantment = enchList.getTag(index)
+        mc.runcmdEx(`say ${JSON.stringify(enchantment.toObject())}`)
+        if (enchantment.getData("id")===null) continue
         if (enchantment.getData("id") === id) {
+            player.tell(`已找到 ${index} 附魔`)
             // 覆盖已存在的附魔等级
             enchantment.setShort("lvl", level)
             found = true
