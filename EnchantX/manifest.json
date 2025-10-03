@@ -1,0 +1,13 @@
+{
+    "entry": "enchantx.js",
+    "name": "EnchantX",
+    "type": "lse-quickjs",
+    "description": "simple tip for soulserver",
+    "author": "wed15",
+    "version": "0.1.0",
+    "dependencies": [
+        {
+            "name": "legacy-script-engine-quickjs"
+        }
+    ]
+}
