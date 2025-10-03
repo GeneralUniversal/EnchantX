@@ -26,6 +26,10 @@ lip install github.com/wed150/EnchantX
 - /enchant <玩家> remove <附魔英文:字符串> 清除指定附魔
 - /enchant <玩家> remove <附魔ID:数字> 清除指定附魔
 
+## 支持我们
+
+[![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)
+
 ## 附魔对照列表
 
 | 附魔名称     | 附魔 ID | 附魔命名             |
