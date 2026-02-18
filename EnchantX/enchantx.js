@@ -50,7 +50,7 @@ function handleEnchantment(player, results, output) {
         return output.error("请输入正确的附魔名称或ID")
     }
 
-    if (id < 0 || id > 40) return output.error(`§c没有 ID 为 ${id} 的魔咒`)
+    if (id < 0 || id > 41) return output.error(`§c没有 ID 为 ${id} 的魔咒`)
     let level = results.level
     // 原有的添加附魔逻辑
     if (level===undefined){
@@ -162,6 +162,7 @@ function getEnchantmentName(id) {
         38: "wind_burst",
         39: "density",
         40: "breach",
+        41: "lunge"
     };
     return Enchantments[id];
 }
@@ -207,7 +208,8 @@ const Enchantments1 = {
     "swift_sneak": 37,
     "wind_burst": 38,
     "density": 39,
-    "breach": 40
+    "breach": 40,
+    "lunge": 41
 };
 
 /**
