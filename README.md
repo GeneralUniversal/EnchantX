@@ -73,4 +73,5 @@ lip install github.com/GeneralUniversal/EnchantX
 | 迅捷潜行     | 37      | swift_sneak          |
 | 风爆         | 38      | wind_burst           |
 | 密度         | 39      | density              |
-| 突进         | 40      | breach               |
+| 突袭         | 40      | breach               |
+| 突进	       | 41	     | lunge                |
