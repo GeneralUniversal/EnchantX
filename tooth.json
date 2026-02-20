@@ -16,8 +16,7 @@
     {
       "platform": "win-x64",
       "dependencies": {
-        "github.com/LiteLDev/LeviLamina": ">=1.0.0",
-        "github.com/LiteLDev/LegacyScriptEngine": ">=0.10.0"
+        "github.com/LiteLDev/LeviLamina": ">=1.9.0"
       },
       "assets": [
         {
