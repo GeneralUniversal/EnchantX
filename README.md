@@ -1,14 +1,14 @@
 # EnchantX
-一个基于lse的高级附魔插件(用ll3写纯属浪费时间)
+一个Native的高级附魔插件
 
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/GeneralUniversal/EnchantX/total?style=for-the-badge&labelColor=%23007ec6&label=下载&color=%234b9cd3)](https://github.com/GeneralUniversal/EnchantX/releases) [![GitHub forks](https://img.shields.io/github/forks/GeneralUniversal/EnchantX?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3)]() [![GitHub Repo stars](https://img.shields.io/github/stars/GeneralUniversal/EnchantX?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3&label=收藏)]() [![GitHub Release](https://img.shields.io/github/v/release/GeneralUniversal/EnchantX?include_prereleases&display_name=release&style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3&label=最新版本)](https://github.com/GeneralUniversal/EnchantX/releases) [![Afdian Totatl Count](https://img.shields.io/badge/a-5-c?style=for-the-badge&label=爱发电&labelColor=%239469e3&color=%23B291F0)](https://afdian.com/a/Minecraft-Mobius)
 
 ## 增强
 
-本项目使用nbt修改执行,并不依赖官方接口
+本项目使用MCAPI
 
 - 允许附魔超过或低于原版等级 (范围:-32767~32767)
-- 清除个别附魔接口
+
 
 
 ## 安装方法
@@ -23,8 +23,7 @@ lip install github.com/GeneralUniversal/EnchantX
 
 - /enchant <玩家> <附魔ID:数字> <附魔等级:数字> 添加附魔
 - /enchant <玩家> <附魔英文:字符串> <附魔等级:数字> 添加附魔
-- /enchant <玩家> remove <附魔英文:字符串> 清除指定附魔
-- /enchant <玩家> remove <附魔ID:数字> 清除指定附魔
+
 
 ## 支持我们
 
